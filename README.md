@@ -2,7 +2,7 @@
 
 ## 1. Cấu hình
 
-- **Hệ điều hành**: Windows / macOS / Linux
+- **Hệ điều hành**: Windows 
 - **Yêu cầu cài đặt**:
   - Python 3.8 trở lên
   - Trình duyệt Chrome hoặc Firefox
@@ -12,25 +12,19 @@
   - `robotframework-seleniumlibrary`
 - **Tệp source**:
   - `login_test.robot`
-
 ---
-
 ## 2. Cài đặt phụ thuộc
-
 Cài các thư viện cần thiết bằng lệnh:
-
 ```bash
 pip install robotframework
 pip install robotframework-seleniumlibrary
 ```
 ## 3.Lệnh chạy
-
 Trong thư mục chứa file login_test.robot, chạy lệnh:
 ```bash
 robot D:\test\testcases\login_test.robot
 ```
 au khi chạy thành công, các file kết quả sẽ được tạo ra:
-
 - log.html
 - report.html
 - output.xml
