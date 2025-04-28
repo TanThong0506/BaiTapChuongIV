@@ -18,6 +18,8 @@ robotframework-seleniumlibrary
 Tệp source:
 
 login_test.robot
+
+2. Cài đặt phụ thuộc
 Cài các thư viện cần thiết bằng lệnh:
 
 bash
@@ -31,22 +33,19 @@ Chrome: Tải ChromeDriver
 
 Firefox: Tải GeckoDriver
 
-Thêm WebDriver vào biến môi trường PATH.
+Ghi chú: Sau khi tải, cần thêm WebDriver vào biến môi trường PATH.
 
-<br/>
 3. Lệnh chạy
-Trong thư mục chứa login_test.robot, chạy lệnh sau:
+Trong thư mục chứa file login_test.robot, chạy lệnh:
 
 bash
 Sao chép
 Chỉnh sửa
 robot login_test.robot
-Sau khi chạy, các file kết quả sẽ được tạo ra:
+Sau khi chạy thành công, các file kết quả sẽ được tạo ra:
 
 log.html
 
 report.html
 
 output.xml
-
-</div>
