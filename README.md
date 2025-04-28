@@ -27,7 +27,7 @@ pip install robotframework-seleniumlibrary
 
 Trong thư mục chứa file login_test.robot, chạy lệnh:
 ```bash
-robot login_test.robot
+robot D:\test\testcases\login_test.robot
 ```
 au khi chạy thành công, các file kết quả sẽ được tạo ra:
 
