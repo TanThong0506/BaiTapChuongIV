@@ -22,11 +22,15 @@ Cài các thư viện cần thiết bằng lệnh:
 ```bash
 pip install robotframework
 pip install robotframework-seleniumlibrary
+```
+## 3.Lệnh chạy
 
-# Trong thư mục chứa file login_test.robot, chạy lệnh:
+Trong thư mục chứa file login_test.robot, chạy lệnh:
+```bash
 robot login_test.robot
+```
+au khi chạy thành công, các file kết quả sẽ được tạo ra:
 
-# Sau khi chạy thành công, các file kết quả sẽ được tạo ra:
-# - log.html
-# - report.html
-# - output.xml
+- log.html
+- report.html
+- output.xml
